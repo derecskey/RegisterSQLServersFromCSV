@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSQLServers", "RegisterSQLServersFromCSV\RegisterSQLServers.csproj", "{25760851-4829-4CF2-98EE-AED6158BB215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{1E6156C9-4187-4128-BEE9-A8708E4DD838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{ED45107E-0AC8-4183-9FF8-2E638856E745}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{87ACFCC4-0CC9-477E-B0D7-0B8C0AEF5848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSQLServers.CsvFileImport", "RegisterSQLServers.CsvFileImport\RegisterSQLServers.CsvFileImport.csproj", "{0E4D5087-EC22-49CA-B1AE-80EB3EF18F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSQLServers.SSMS", "RegisterSQLServers.SSMS\RegisterSQLServers.SSMS.csproj", "{4D74F281-28F8-493E-A3F3-4CB034AEE471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSQLServers.SSMS.IntegrationTests", "RegisterSQLServers.SSMS.IntegrationTests\RegisterSQLServers.SSMS.IntegrationTests.csproj", "{028564A7-6141-446C-9B93-3DE816B9BAB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25760851-4829-4CF2-98EE-AED6158BB215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25760851-4829-4CF2-98EE-AED6158BB215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25760851-4829-4CF2-98EE-AED6158BB215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25760851-4829-4CF2-98EE-AED6158BB215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4D5087-EC22-49CA-B1AE-80EB3EF18F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4D5087-EC22-49CA-B1AE-80EB3EF18F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4D5087-EC22-49CA-B1AE-80EB3EF18F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4D5087-EC22-49CA-B1AE-80EB3EF18F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D74F281-28F8-493E-A3F3-4CB034AEE471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D74F281-28F8-493E-A3F3-4CB034AEE471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D74F281-28F8-493E-A3F3-4CB034AEE471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D74F281-28F8-493E-A3F3-4CB034AEE471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028564A7-6141-446C-9B93-3DE816B9BAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028564A7-6141-446C-9B93-3DE816B9BAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028564A7-6141-446C-9B93-3DE816B9BAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028564A7-6141-446C-9B93-3DE816B9BAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25760851-4829-4CF2-98EE-AED6158BB215} = {1E6156C9-4187-4128-BEE9-A8708E4DD838}
+		{0E4D5087-EC22-49CA-B1AE-80EB3EF18F2D} = {ED45107E-0AC8-4183-9FF8-2E638856E745}
+		{4D74F281-28F8-493E-A3F3-4CB034AEE471} = {ED45107E-0AC8-4183-9FF8-2E638856E745}
+		{028564A7-6141-446C-9B93-3DE816B9BAB3} = {87ACFCC4-0CC9-477E-B0D7-0B8C0AEF5848}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C009EB41-DE3E-4233-A89A-636D020D5451}
+	EndGlobalSection
+EndGlobal

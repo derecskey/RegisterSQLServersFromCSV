@@ -1,0 +1,11 @@
+﻿ServerName,InstanceName,DatabaseName,VanityName,EnvironmentTier,LogicalFolderName
+DC1SQL01,SQL01,someDb,someDb.db.thecompany.com,Prod,someDb
+DC2SQL01,SQL01_DEV,someDb_Dev,,Dev,someDb
+DC1SQL01,SQL01,anotherDb,anotherDb.db.thecompany.com,Prod,anotherDb
+DC2SQL01,SQL01_DEV,anotherDb_Dev,,Dev,anotherDb
+DC2SQL01,SQL01_QA,anotherDb_QA,,Qa,anotherDb
+DC1SQL02,SQL02,yetAnotherFakeDb,yetAnotherFakeDb.db.thecompany.com,Prod,yetAnotherFakeDb
+DC2SQL02,SQL02_DEV,yetAnotherFakeDb_Dev,,Dev,yetAnotherFakeDb
+DC2SQL02,SQL02_QA,yetAnotherFakeDb_QA,,Qa,yetAnotherFakeDb
+DC2SQL02,SQL02_QA,yetAnotherFakeDb_Uat,,Uat,yetAnotherFakeDb
+DC2SQL02,SQL02,yetAnotherFakeDb_Training,,Training,yetAnotherFakeDb
